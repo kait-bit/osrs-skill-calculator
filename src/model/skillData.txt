@@ -1,0 +1,24 @@
+Agility,Draynor Village Rooftop Course,10000
+Agility,Gnome Stronghold Agility Course,10000
+Agility,Shayzien Basic Course,10000
+Agility,Al Kharid Rooftop Course,12000
+Agility,Varrock Rooftop Course,14000
+Agility,Barbarian Outpost Agility Course,18200
+Agility,Canifis Rooftop Course,19200
+Agility,Penguin Agility Course,30000
+Agility,Shayzien Advanced Course,30000
+Agility,Colossal Wyrm Regular Agility Course,31000
+Agility,Falador Rooftop Course,35000
+Agility,Colossal Wyrm Advanced Agility Course,44000
+Agility,Agility Pyramid,44750
+Agility,Seers' Village Rooftop Course,45600
+Agility,Wilderness Agility Course,47500
+Agility,Ape Atoll Agility Course,53300
+Agility,Pollnivneach Rooftop Course,60000
+Agility,Dorgesh-Kaan Agility Course,63000
+Agility,Rellekka Rooftop Course,65000
+Agility,Prifddinas Agility Course,66000
+Agility,Brimhaven Agility Arena,67000
+Agility,Werewolf Agility Course,69500
+Agility,Ardougne Rooftop Course,70000
+Agility,Hallowed Sepulchre,81000
