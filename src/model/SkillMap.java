@@ -6,26 +6,26 @@ import java.util.HashMap;
 /**
  *@author Kaitlin Spell
  *
- *<p>The Skills class stores Old School RuneScape skills in a HashMap using a custom key {@link TableKey}.
+ *<p>The SkillMap class stores Old School RuneScape skills in a HashMap using a custom key {@link TableKey}.
  * Data includes the skill name, specific grinding methods, and the associated XP per hour.
  *
  * <p><br>A method, {@code getXp}, is provided to retrieve the hourly xp for a skill based on the grinding method.
  */
-public final class SkillTable {
-    private final HashMap<TableKey, Integer> table;
+public final class SkillMap {
+    private final HashMap<TableKey, Integer> map;
 
-    public SkillTable() {
-        this.table = new HashMap<TableKey, Integer>();
+    public SkillMap() {
+        this.map = new HashMap<TableKey, Integer>();
         fillHashMap();
     }
 
-    // Retrieve the whole skill table
-    public HashMap<TableKey, Integer> getTable() {
-        return table;
+    // Retrieve the whole skill map
+    public HashMap<TableKey, Integer> getMap() {
+        return map;
     }
 
 
-    // Fill the skill table with data from the skillData.txt file
+    // Fill the skill map with data from the skillData.txt file
     private void fillHashMap() {
         try {
             File file = new File("C:\\Users\\sleep\\Documents\\programming\\osrs-skill-calculator\\src\\model\\skillData.txt");
@@ -47,7 +47,7 @@ public final class SkillTable {
                 TableKey key = new TableKey(skill, method);
                 int xp = Integer.parseInt(columns[2].trim());
 
-                table.put(key, xp);
+                map.put(key, xp);
             }
         } catch (IOException e) {
             throw new RuntimeException("File not found.");
@@ -56,8 +56,8 @@ public final class SkillTable {
 
     // Retrieve the xp per hour for a skill based on the grinding method
     public Integer getXp(String skill, String method) {
-        if (table.containsKey(new TableKey(skill, method))) {
-            return table.get(new TableKey(skill, method));
+        if (map.containsKey(new TableKey(skill, method))) {
+            return map.get(new TableKey(skill, method));
         } else {
             throw new IllegalArgumentException("No entry was found for " + skill + " and " + method);
         }
