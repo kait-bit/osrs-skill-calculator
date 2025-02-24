@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.HashMap;
 
 /**
- *@author Kaitlin Spell
+ *@author @kaitbit
  *
  *<p>The SkillMap class stores Old School RuneScape skills in a HashMap using a custom key {@link TableKey}.
  * Data includes the skill name, specific grinding methods, and the associated XP per hour.
