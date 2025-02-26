@@ -79,6 +79,28 @@
         <properties>
           <model>
             <item value="Agility"/>
+            <item value="Attack"/>
+            <item value="Construction"/>
+            <item value="Cooking"/>
+            <item value="Crafting"/>
+            <item value="Defence"/>
+            <item value="Farming"/>
+            <item value="Firemaking"/>
+            <item value="Fishing"/>
+            <item value="Fletching"/>
+            <item value="Herblore"/>
+            <item value="Hitpoints"/>
+            <item value="Hunter"/>
+            <item value="Magic"/>
+            <item value="Mining"/>
+            <item value="Ranged"/>
+            <item value="Runecraft"/>
+            <item value="Prayer"/>
+            <item value="Slayer"/>
+            <item value="Smithing"/>
+            <item value="Strength"/>
+            <item value="Thieving"/>
+            <item value="Woodcutting"/>
           </model>
         </properties>
       </component>
