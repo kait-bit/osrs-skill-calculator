@@ -28,7 +28,7 @@ public final class SkillMap {
     // Fill the skill map with data from the skillData.txt file
     private void fillHashMap() {
         try {
-            File file = new File("C:\\Users\\sleep\\Documents\\programming\\osrs-skill-calculator\\src\\model\\skillData.txt");
+            File file = new File("skillData.txt");
             BufferedReader br = new BufferedReader(new FileReader(file));
             String line = null;
 
