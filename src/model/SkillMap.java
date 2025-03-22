@@ -15,7 +15,7 @@ public final class SkillMap {
     private final HashMap<TableKey, Integer> map;
 
     public SkillMap() {
-        this.map = new HashMap<TableKey, Integer>();
+        this.map = new HashMap<>();
         fillHashMap();
     }
 
